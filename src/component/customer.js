@@ -66,7 +66,7 @@ const Customer = () => {
         <h2 className="lg:text-[64px] md:text-[40px] text-[24px] tracking-wide font-bold mb-[25px] md:mb-[32px] lg:[40px]">
           Featured Clients
         </h2>
-        <div className="grid md:grid-cols-2  grid-cols-1 gap-[120px]">
+        <div className="grid md:grid-cols-2  grid-cols-1 gap-[60px] md:gap-[100px]">
           <div>
             <h3 className="lg:text-[40px] md:text-[30px] text-[19px] font-bold">
               Vant

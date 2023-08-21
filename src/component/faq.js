@@ -3,7 +3,7 @@ import Questions from "./Questions";
 
 const Faq = () => {
   return (
-    <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px]">
+    <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px] mt-[40px]">
       <div className="flex flex-col md:flex-row md:gap-[10%] gap-5">
         <div className="md:w-[50%] w-full">
           {" "}

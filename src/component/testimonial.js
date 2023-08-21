@@ -32,7 +32,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px]">
+      <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px] my-9">
         {" "}
         <div className="mb-8">
           <h2 className="font-bold text-[24px] md:text-[40px] lg:text-[70px] text-center">
@@ -44,10 +44,10 @@ const Testimonial = () => {
         </div>
         <Carousel responsive={responsive}>
           <div className="bg-[#F6F6F9] p-3 mr-5">
-            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold ">
+            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Amazing Designs and Marketing"
             </h3>
-            <p className="text-[16px] md:text-[18px]">
+            <p className="text-[16px] md:text-[18px] mb-4">
               Eaglion.co is one of the best Marketing Professionals anyone will
               ever find. They are detail oriented at the same time helps high
               level strategy, vision and needed actions for an organization.
@@ -152,7 +152,7 @@ const Testimonial = () => {
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
         </Carousel>
-        ;
+        
         {/* <Carousel responsive={responsive}>
 
           <div className="bg-[#F6F6F9] p-3">

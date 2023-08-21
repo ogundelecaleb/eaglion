@@ -13,11 +13,11 @@ function Questions(props) {
 
     return (
         <div className=" pt-7 pb-4 relative">
-            <div className="flex justify-between items-center font-bold cursor-pointer px-[30px] md:px-[40px] py-[30px] md:py-[40px] bg-[#FAFAFA]" onClick={handleClick}>
+            <div className="flex justify-between items-center rounded-lg font-bold cursor-pointer px-[15px] md:px-[40px] py-[15px] md:py-[40px] bg-[#FAFAFA]" onClick={handleClick}>
                 <p> {props.question} </p>
                 <button>{icon}</button>
             </div>
-            <div className={showContent ? "animate__animated animate__fadeInDown animate__faster mt-5" : "hidden"}>
+            <div className={showContent ? "animate__animated animate__fadeInDown animate__faster mt-5 px-[15px] md:px-[40px]" : "hidden"}>
                 {props.answer}
             </div>
         </div>
