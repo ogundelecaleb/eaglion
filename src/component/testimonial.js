@@ -64,10 +64,10 @@ const Testimonial = () => {
             <p className="text-[#888] ">CEO, SOLUTIONSUIUX LLC.</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5">
-            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold ">
+          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
-            <p className="text-[16px] md:text-[18px]">
+            <p className="text-[16px] md:text-[18px] mb-4">
               Eaglion Technologies has consistently delivered exceptional
               service in website creation, mobile app development, and
               maintenance. Their professionalism, expertise, and attention to
@@ -86,10 +86,10 @@ const Testimonial = () => {
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5">
-            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold ">
+          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
-            <p className="text-[16px] md:text-[18px]">
+            <p className="text-[16px] md:text-[18px] mb-4">
               Eaglion Technologies has consistently delivered exceptional
               service in website creation, mobile app development, and
               maintenance. Their professionalism, expertise, and attention to
@@ -108,10 +108,10 @@ const Testimonial = () => {
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5">
-            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold ">
+          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
-            <p className="text-[16px] md:text-[18px]">
+            <p className="text-[16px] md:text-[18px] mb-4">
               Eaglion Technologies has consistently delivered exceptional
               service in website creation, mobile app development, and
               maintenance. Their professionalism, expertise, and attention to
@@ -130,10 +130,10 @@ const Testimonial = () => {
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5">
-            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold ">
+          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
-            <p className="text-[16px] md:text-[18px]">
+            <p className="text-[16px] md:text-[18px] mb-4">
               Eaglion Technologies has consistently delivered exceptional
               service in website creation, mobile app development, and
               maintenance. Their professionalism, expertise, and attention to

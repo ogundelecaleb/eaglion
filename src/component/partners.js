@@ -3,7 +3,7 @@ import React from "react";
 const Partner = () => {
   return (
     <div className="px-[16px] md:px-[30px] lg:px-[80px]  py-[80px]">
-      <div className="mx-[104px]">
+      <div className="mx-[40px] md:mx-[80px] lg:mx-[100px]">
         <div className="flex justify-between flex-wrap">
           <div>
             <img src="/mailchimp.svg" alt="" />
