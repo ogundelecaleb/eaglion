@@ -12,7 +12,7 @@ const Footer = () => {
       <div className=" bg-[#040C3C] px-[24px] md:px-[40px] lg:px-[64px]  py-[24px] md:pt-[40px] lg:pt-[64px]  md:pb-[30px] lg:pb-[36px] rounded-lg">
         <div className="text-white flex mb-4 md:mb-6">
           <div className="w-full md:w-[30%] lg:w-[40%]">
-            <img src="/eaglionLogowhite.png" />
+            <img src="/eaglionLogowhite.png" alt=""/>
             <p>Creating tomorrow’s solutions today</p>
           </div>
           <div className="w-full flex gap-4 md:gap-[10%] md:w-[60%] ">
