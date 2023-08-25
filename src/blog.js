@@ -8,7 +8,6 @@ import Navbar from "./component/navbar";
 const Blog = () => {
   const { slug } = useParams();
   const [blogs, setBlogs] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     sanityClient
       .fetch(
@@ -39,7 +38,7 @@ const Blog = () => {
       .catch(console.error);
 
       console.log(blogs)
-  }, []);
+  },);
 
   return (
     <div>

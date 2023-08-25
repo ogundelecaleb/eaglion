@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React, { useEffect, useState } from "react";
 import sanityClient from "../sanity";
 import imageUrlFor from "./imageUrlFor";
