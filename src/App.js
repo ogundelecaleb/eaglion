@@ -1,28 +1,21 @@
-import "./App.css";
-import Customer from "./component/customer";
-import Empower from "./component/empower";
-import Faq from "./component/faq";
-import Footer from "./component/footer";
-import Herobanner from "./component/herobanner";
-import Navbar from "./component/navbar";
-import Newsletter from "./component/newsletter";
-import Partner from "./component/partners";
-import Service from "./component/service";
-import Testimonial from "./component/testimonial";
+import React from "react";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import Blog from "./blog";
+import Home from "./home";
+import Contact from "./contact";
+import Services from "./services";
 
 function App() {
   return (
     <div className="">
-      <Navbar />
-      <Herobanner />
-      <Partner />
-      <Service />
-      <Empower />
-      <Customer />
-      <Testimonial />
-      <Faq />
-      <Newsletter />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog/:slug" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Services />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

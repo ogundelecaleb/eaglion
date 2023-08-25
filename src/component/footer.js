@@ -10,10 +10,13 @@ const Footer = () => {
   return (
     <div className="px-3 pb-3 md:px-4 lg:px-6 md:pb-4 ">
       <div className=" bg-[#040C3C] px-[24px] md:px-[40px] lg:px-[64px]  py-[24px] md:pt-[40px] lg:pt-[64px]  md:pb-[30px] lg:pb-[36px] rounded-lg">
-        <div className="text-white flex mb-4 md:mb-6">
+        <div className="text-white flex flex-col md:flex-row mb-[80px] md:mb-[100px] gap-[30px]">
           <div className="w-full md:w-[30%] lg:w-[40%]">
-            <img src="/eaglionLogowhite.png" alt=""/>
-            <p>Creating tomorrow’s solutions today</p>
+          <img
+              src="/eaglionlogo.png"
+              alt="eaglion logo"
+              className="object-contain h-[30px] md:h-[35px] lg:h-[39px]"
+            />            <p>Creating tomorrow’s solutions today</p>
           </div>
           <div className="w-full flex gap-4 md:gap-[10%] md:w-[60%] ">
             <div>

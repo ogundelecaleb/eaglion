@@ -2,7 +2,7 @@ import React from "react";
 
 const Customer = () => {
   return (
-    <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px]">
+    <div className="px-[16px] md:px-[30px] lg:px-[80px] mb-[42px] md:mb-[70px]  ">
       <div>
         <h2 className="font-bold text-[24px] md:text-[40px] lg:text-[70px] text-center">
           Who Have We Worked With?
@@ -12,7 +12,7 @@ const Customer = () => {
         </p>
       </div>
 
-      <div className="mt-[60px] md:mt-[90px] lg:mt-[40px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] ">
+      <div className="mt-[60px] md:mt-[90px] lg:mt-[40px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] rounded-2xl">
         <div className="  mx-auto  max-w-[700px]">
           <div className="flex gap-2 md:gap-4 mb-[24px] lg:text-[20px]">
             {" "}
@@ -79,7 +79,7 @@ const Customer = () => {
               progrss every time you save money.
             </p>
 
-            <button className="px-2 py-1 bg-black text-white rounded-[24px]">
+            <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
           </div>
@@ -95,7 +95,7 @@ const Customer = () => {
               children; gadgets, electronics, groceries, and a whole lot more
               from premium brands.
             </p>
-            <button className="px-2 py-1 bg-black text-white rounded-[24px]">
+            <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
           </div>
@@ -110,7 +110,7 @@ const Customer = () => {
               Shop Nike, adidas, H&M, YSL, Ralph Lauren and more on the Konix
               app, right on your phone in the comfort of your home.
             </p>
-            <button className="px-2 py-1 bg-black text-white rounded-[24px]">
+            <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
           </div>
@@ -125,7 +125,7 @@ const Customer = () => {
               development of Africa. Access is everything! imagine where this
               world is the reality of Africa.
             </p>
-            <button className="px-2 py-1 bg-black text-white rounded-[24px]">
+            <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
           </div>

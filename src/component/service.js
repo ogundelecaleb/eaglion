@@ -6,7 +6,7 @@ const Service = () => {
       <h2 className="text-center lg:text-[70px] md:text-[40px] text-[24px] font-bold tracking-wider">How Can We Help You?</h2>{" "}
       <p className="text-[12px] md:text-[16px] text-center mb-[25px]">We offer diverse servicxes, a few are listed below.</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-[20px]">
-      <div className="text-center py-[30px] md:py-[40px] px-[14px]  rounded-lg text-black border border-[#04234F]">
+      <div className="text-center shadow-lg py-[30px] md:py-[40px] px-[14px]  rounded-lg text-black border border-[#04234F]">
           <h2 className="mb-[20px] text-[24px] lg:text-[30px] font-bold">
             Product Design
           </h2>
@@ -19,7 +19,7 @@ const Service = () => {
           <img src="/pen.png" alt="pen" className="mx-auto mt-[40px] md:mt-[80px]" />
         </div>
 
-        <div className="text-center py-[30px] md:py-[40px] px-[14px]  rounded-lg text-black border border-[#04234F]">
+        <div className="text-center shadow-lg py-[30px] md:py-[40px] px-[14px]  rounded-lg text-black border border-[#04234F]">
           <h2 className="mb-[20px] text-[24px] lg:text-[30px] font-bold">
             E-commerce
           </h2>
@@ -30,7 +30,7 @@ const Service = () => {
           </p>
           <img src="/dumpster.png" alt="dumpster" className="mx-auto mt-[40px] md:mt-[80px]" />
         </div>
-        <div className="text-center py-[30px] md:py-[40px] px-[14px]  rounded-lg text-black border border-[#04234F]">
+        <div className="text-center py-[30px] md:py-[40px] px-[14px] shadow-lg  rounded-lg text-black border border-[#04234F]">
           <h2 className="mb-[20px] text-[24px] lg:text-[30px] font-bold">
             Software Development
           </h2>

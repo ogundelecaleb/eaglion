@@ -32,7 +32,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <div className="px-[16px] md:px-[30px] lg:px-[80px]  md:mx-[60px] lg:mx-[108px] my-9">
+      <div className="px-[16px] md:px-[30px] lg:px-[80px]  my-9">
         {" "}
         <div className="mb-8">
           <h2 className="font-bold text-[24px] md:text-[40px] lg:text-[70px] text-center">
@@ -43,7 +43,7 @@ const Testimonial = () => {
           </p>
         </div>
         <Carousel responsive={responsive}>
-          <div className="bg-[#F6F6F9] p-3 mr-5">
+          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
             <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Amazing Designs and Marketing"
             </h3>
@@ -63,7 +63,7 @@ const Testimonial = () => {
             </h3>
             <p className="text-[#888] ">CEO, SOLUTIONSUIUX LLC.</p>
           </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5">
+          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
           <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
@@ -85,7 +85,7 @@ const Testimonial = () => {
             </h3>
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5">
+          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
           <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
@@ -107,7 +107,7 @@ const Testimonial = () => {
             </h3>
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5">
+          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
           <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
@@ -129,7 +129,7 @@ const Testimonial = () => {
             </h3>
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5">
+          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
           <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>

@@ -11,7 +11,7 @@ const Newsletter = () => {
         </h2>
       </div>
 
-      <div className="h-[150px] md:h-[204px] max-w-[150px] md:max-w-[204px] border border-gray-500 rounded-full mx-auto py-[30px] md:py-[50px] mb-[80px] md:mb-[120px] mt-[20px] md:mt-[40px]">
+      <div className="h-[150px] shadow-lg md:h-[204px] max-w-[150px] md:max-w-[204px] border border-gray-500 rounded-full mx-auto py-[30px] md:py-[50px] mb-[80px] md:mb-[120px] mt-[20px] md:mt-[40px]">
         <p className=" text-center mb-[20px]">Get a free quote</p>
 
         <svg
