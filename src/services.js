@@ -39,10 +39,12 @@ const Services = () => {
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-[10px] md:gap-[20px] py-[32px] lg:py-[80px]">
           <ServiceCard
             icon="/pen.png"
+            head="Product Design"
             description="We provide product research, design, testing services. We engage latest trends, technology and skills to provide you with a market fit, usable product."
           />
           <ServiceCard
             icon="/dumpster.png"
+            head="e-commerce"
             description="We provide industry standard eCommerce website development, operations, logistics and consultancy services."
           />
           <ServiceCard
