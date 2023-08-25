@@ -36,7 +36,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-[20px] py-[32px] lg:py-[80px]">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-[10px] md:gap-[20px] py-[32px] lg:py-[80px]">
           <ServiceCard
             icon="/pen.png"
             description="We provide product research, design, testing services. We engage latest trends, technology and skills to provide you with a market fit, usable product."

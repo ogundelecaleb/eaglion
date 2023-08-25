@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = (prop) => {
   return (
-    <div className="p-4  relative md:p-6 border shadow-lg rounded-lg">
+    <div className="py-4 px-2   relative md:p-6 border shadow-lg rounded-lg">
         <div className="w-full flex">
         <div className="flex justify-end">
       <svg
@@ -25,7 +25,7 @@ const ServiceCard = (prop) => {
       <h4 className="text-lg md:text-2xl textfont-semibold mb-2">
         {prop.head}
       </h4>
-      <p className="mb-2 font-normal text-[#2E2E2E] text-base md:text-lg text">
+      <p className="mb-2 font-normal text-[#2E2E2E] text-[12px] md:text-lg text">
         {prop.description}
       </p>
     </div>
