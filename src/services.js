@@ -26,12 +26,12 @@ const Services = () => {
             <img
               src="/float-text.png"
               alt=""
-              className="absolute hidden lg:inline-block right-[8%] top-1"
+              className="absolute hidden lg:inline-block right-[20px] top-1"
             />
             <img
               src="/float-text2.png"
               alt=""
-              className="absolute hidden lg:inline-block top-1 left-[8%]"
+              className="absolute hidden lg:inline-block top-1 left-[20px]"
             />
           </div>
         </div>
@@ -98,7 +98,53 @@ const Services = () => {
             description="We provide in person or remote software and hardware repairs, support, and troubleshooting to organizations and individuals."
           />
         </div>
+        <div className="bg-[#FAFAFA] p-[20px] lg:-[42px] rounded-lg">
+        <div className="mb-5">
+          <p className="text-sm md:text-base lg:text-lg ">Customer’s expectation</p>
+          <h3 className="text-xl md:text-[36px] lg:text-[60px] font-bold">What to expect</h3>
+        </div>
+        <div className="flex flex-col-reverse md:flex-row gap-[40px] md:gap-[10%]">
+          <p className="w-full md:w-[50%] self-end text-base lg:text-[24xp] text-[#6A6A6A] ">
+            Create Amazing Websites for Business, Startup, NGO, SME and personal
+            projects. We are the real deal; all your business and technology
+            need in one place.
+          </p>
+          <div className="w-full md:w-[50%]">
+            <ul className="p-[18px] md:p-[20px] lg:p-[24px] bg-white rounded-lg">
+              <li className="border-b ">
+                <h2 className="font-semibold text-base md:text-xl lg:text-2xl mb-[16px] "># Innovative Solutions</h2>
+                <p className="text-[12px] md:text-[16px] font-thin pb-[16px] ">
+                  Customer expect us to provide them with innovative and
+                  cutting-edge solutions that address their unique challenges.
+                </p>
+              </li>
+              <li className="border-b ">
+              <h2 className="font-semibold text-base mt-[16px] md:text-xl lg:text-2xl mb-[16px] "># Expertise and Guidance</h2>
+              <p className="text-[12px] md:text-[16px] font-thin pb-[16px] ">
+                  Customers rely on our guidance, recommendations, and expertise
+                  that can drive their projects to success.
+                </p>
+              </li>
+              <li className="border-b ">
+              <h2 className="font-semibold text-base mt-[16px] md:text-xl lg:text-2xl mb-[16px] "># Scalability and Future-Proofing</h2>
+              <p className="text-[12px] md:text-[16px] font-thin pb-[16px] ">
+                  Customers anticipate solutions that can adapt and scale as
+                  their business grow.
+                </p>
+              </li>
+              <li className="border-b ">
+              <h2 className="font-semibold text-base mt-[16px] md:text-xl lg:text-2xl mb-[16px] "># Value for Investment</h2>
+              <p className="text-[12px] md:text-[16px] font-thin pb-[16px] ">
+                  Customers expect our services to provide tangible value. They
+                  want to see a return on their investments
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       </div>{" "}
+      
       <Newsletter />
       <Footer />
     </div>

@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="px-[16px] md:px-[30px] lg:px-[80px] mb-[42px] md:mb-[70px]  ">
-        <div className="mt-[32px] md:mt-[72px]  lg:mt-[120px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] rounded-2xl relative">
+        <div className="mt-[32px] md:mt-[72px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] rounded-2xl relative">
           <h2 className="text-[24px] md:text-[32px] lg:text-[70px] font-bold text-center   transition-all  text-transparent bg-clip-text bg-gradient-to-b to-white via-black from-[#111111] mb-2 md:mb-4">
             Contact Us
           </h2>
