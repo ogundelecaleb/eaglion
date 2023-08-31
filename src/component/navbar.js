@@ -27,41 +27,42 @@ const Navbar = () => {
         </div>
 
         <div className="md:flex items-center gap-[32px] hidden">
-          <ul className=" text-[20px] text-[#000] font-semibold space-x-[21px] flex items-center">
+          <ul className=" text-[20px] text-[#000] font-semibold md:space-x-[12px] lg:space-x-[17px]  flex items-center">
             <Link to="/project">
-              <li className="hover:text-white hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Project
               </li>
             </Link>
             <Link to="/product">
-              <li className="hover:text-white hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Product
               </li>
             </Link>
             <Link to="/service">
-              <li className="hover:text-white hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Services
               </li>
             </Link>
             <Link to="/contact">
-              <li className="hover:text-white hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Contact
               </li>
             </Link>
             <Link to="/about">
-              <li className="hover:text-white hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 About Us
               </li>
             </Link>
           </ul>
-          <button className="px-[40px] bg-[#040c3c] py-[16px] rounded-[40px] flex items-center gap-[10px]">
+          <Link to="https://forms.gle/PjotJNonL1Sq7R5y8" target="_blank" >
+          <button className="md:px-[20px] lg:px-[40px] bg-[#040c3c] py-[16px] rounded-[40px] flex items-center gap-[10px]">
             <p className="text-white">Request quote </p>
 
             <img src="/receipt.svg" className="" alt="receipt" />
-          </button>
+          </button></Link>
         </div>
 
-        <button onClick={handleToggle} className="lg:hidden md:inline-block">
+        <button onClick={handleToggle} className="md:hidden md:inline-block">
           {toggle ? <GiHamburgerMenu /> : <AiOutlineClose />}
         </button>
       </div>
@@ -71,7 +72,7 @@ const Navbar = () => {
           animate={{
             y: 0,
             opacity: 1,
-            scale: 1,
+            // scale: 1,
           }}
           transition={{
             duration: 1.2,
@@ -122,7 +123,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <Link to="/about">
-                <li className="cursor-pointer border-b hover:text-[##990019] hover:border-b-[#124072]">
+                <li className="cursor-pointer hover:border-b hover:text-[##990019] hover:border-b-[#124072]">
                   About Us
                 </li>
               </Link>

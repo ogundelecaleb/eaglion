@@ -7,6 +7,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 
 const Blog = () => {
+  const BlockContent = require('@sanity/block-content-to-react')
   const [blogs, setBlogs] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -21,11 +22,7 @@ const Blog = () => {
             }
           },
      publishedAt,
-          body[0]{
-                children[0]{
-                  text
-                }
-              },
+          body,
           image{
             asset->{
               _ref,
@@ -94,7 +91,7 @@ const Blog = () => {
                   key={index}
                   className="bg-white p-3 md:p-4 mr-5 rounded-lg "
                 >
-                  <div>
+                  <div classname="prose">
                     <img
                       src={imageUrlFor(blog.mainImage.asset._ref).url()}
                       alt=""
@@ -103,7 +100,10 @@ const Blog = () => {
                     <h2 className="text-[18px] md:text-[20px] lg:text-[24px] mb-2 font-bold">
                       {blog.title}
                     </h2>
-                    <p className="text-md md:">{blog.body.children.text}</p>{" "}
+                    <div className = "prose line-clamp-2">
+                        <BlockContent blocks = {blog.body} projectId = "pzl9rov9" dataset = "production" />
+                    </div>
+                    {/* <p className="text-md prose ">{blog.body.children.text} </p>{" "} */}
                     {/* <h3>{blog.publishedAt}</h3> */}
                   </div>
                   <Link to={"/blog/" + blog.slug.current}>
