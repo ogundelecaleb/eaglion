@@ -1,8 +1,5 @@
 import React from "react";
 import Navbar from "./component/navbar";
-import Partner from "./component/partners";
-
-import WhyChooseFaq from "./component/whyChooseFaq";
 import Newsletter from "./component/newsletter";
 import Footer from "./component/footer";
 import { AiOutlineArrowRight } from "react-icons/ai";
