@@ -75,7 +75,7 @@ const Blog = () => {
         Blog Post
       </h2>
 
-      <h3 className="text-[#2E2E2E] text-[20px] md:text-[36px] lg:text-[42px]  w-[50%] md:w-[70%] mb-[42px] md:mb-[64px]">
+      <h3 className="text-[#2E2E2E] text-[20px] md:text-[36px] lg:text-[42px]   md:w-[70%] mb-[42px] md:mb-[64px]">
         Latest insights, stories, and news from Eaglion Technologies.
       </h3>
 
@@ -97,7 +97,7 @@ const Blog = () => {
                       alt=""
                       className="rounded-lg mb-[24px] md:mb-[38px] h-[128px] md:h-[160px] w-full object-cover "
                     />
-                    <h2 className="text-[18px] md:text-[20px] lg:text-[24px] mb-2 font-bold">
+                    <h2 className="text-[18px] md:text-[20px] line-clamp-2 lg:text-[24px] mb-2 font-semibold">
                       {blog.title}
                     </h2>
                     <div className = "prose line-clamp-2">

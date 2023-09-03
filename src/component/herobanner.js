@@ -6,7 +6,7 @@ const Herobanner = () => {
     <div className="px-[16px] md:px-[30px] lg:px-[80px]  pt-[100px]">
       {" "}
       <div className="w-full  flex ">
-        <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
+        <button className="px-[20px] hover:bg-[#040c3c] hover:text-white   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
           Transforming ideas into reality
         </button>
       </div>
@@ -24,8 +24,8 @@ const Herobanner = () => {
         development, management, and IT consulting.
       </h4>
       <div>
-        <Link to=" https://calendar.app.google/d8RXpAUT6nMTKG1s8">
-          <button className=" px-[30px] text-[14px] md:text-[16px]  md:px-[40px] bg-[#040c3c] py-[16px] rounded-[40px] flex items-center gap-[7px] md:gap-[10px] text-white mx-auto">
+        <Link to="https://calendar.app.google/d8RXpAUT6nMTKG1s8" target="_blank">
+          <button className=" px-[30px] text-[14px] md:text-[16px]  md:px-[40px] bg-[#040c3c] hover:bg-[#040c3cd8] py-[16px] rounded-[40px] flex items-center gap-[7px] md:gap-[10px] text-white mx-auto">
             <p>Book a 30-min call</p>
             <img src="/call.svg" className="" alt="cell-phone" />
           </button>

@@ -64,7 +64,7 @@ const Testimonial = () => {
             <p className="text-[#888] ">CEO, SOLUTIONSUIUX LLC.</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
-          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
+            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
               "Exceptional service"
             </h3>
             <p className="text-[16px] md:text-[18px] mb-4">
@@ -86,73 +86,20 @@ const Testimonial = () => {
             <p className="text-[#888] ">MD, BuyASAP Africa</p>
           </div>
           <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
-          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
-              "Exceptional service"
+            <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
+              "Excellent Delivery"
             </h3>
             <p className="text-[16px] md:text-[18px] mb-4">
-              Eaglion Technologies has consistently delivered exceptional
-              service in website creation, mobile app development, and
-              maintenance. Their professionalism, expertise, and attention to
-              detail have impressed us. They have been proactive in
-              communication, meeting deadlines, and addressing our requirements
-              with precision. Their post-development support has been prompt and
-              efficient. Overall, Eaglion Technologies has surpassed our
-              expectations in service delivery. We highly recommend them for
-              their outstanding work in creating and maintaining websites and
-              mobile apps.
+              Good working with Eaglion tech team.. they are the best tech
+              company with excellent and efficient solutions to tech space.
             </p>
 
             <h3 className="lg:text-[24px] md:text-[20px] text-[16px] font-bold ">
-              Chukwuka Anago
+              Kingsley Nwosu
             </h3>
-            <p className="text-[#888] ">MD, BuyASAP Africa</p>
-          </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
-          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
-              "Exceptional service"
-            </h3>
-            <p className="text-[16px] md:text-[18px] mb-4">
-              Eaglion Technologies has consistently delivered exceptional
-              service in website creation, mobile app development, and
-              maintenance. Their professionalism, expertise, and attention to
-              detail have impressed us. They have been proactive in
-              communication, meeting deadlines, and addressing our requirements
-              with precision. Their post-development support has been prompt and
-              efficient. Overall, Eaglion Technologies has surpassed our
-              expectations in service delivery. We highly recommend them for
-              their outstanding work in creating and maintaining websites and
-              mobile apps.
-            </p>
-
-            <h3 className="lg:text-[24px] md:text-[20px] text-[16px] font-bold ">
-              Chukwuka Anago
-            </h3>
-            <p className="text-[#888] ">MD, BuyASAP Africa</p>
-          </div>
-          <div className="bg-[#F6F6F9] p-3 mr-5 rounded-lg">
-          <h3 className="lg:text-[32px] md:text-[26px] text-[22px] font-bold mb-3 ">
-              "Exceptional service"
-            </h3>
-            <p className="text-[16px] md:text-[18px] mb-4">
-              Eaglion Technologies has consistently delivered exceptional
-              service in website creation, mobile app development, and
-              maintenance. Their professionalism, expertise, and attention to
-              detail have impressed us. They have been proactive in
-              communication, meeting deadlines, and addressing our requirements
-              with precision. Their post-development support has been prompt and
-              efficient. Overall, Eaglion Technologies has surpassed our
-              expectations in service delivery. We highly recommend them for
-              their outstanding work in creating and maintaining websites and
-              mobile apps.
-            </p>
-
-            <h3 className="lg:text-[24px] md:text-[20px] text-[16px] font-bold ">
-              Chukwuka Anago
-            </h3>
-            <p className="text-[#888] ">MD, BuyASAP Africa</p>
+            <p className="text-[#888] ">MD, Konix App</p>
           </div>
         </Carousel>
-        
         {/* <Carousel responsive={responsive}>
 
           <div className="bg-[#F6F6F9] p-3">

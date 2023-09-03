@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="relative">
-      <div className="px-[16px] md:px-[30px] lg:px-[80px] py-[32px] flex items-center justify-between ">
+      <div className="px-[16px] md:px-[30px] lg:px-[80px] py-[24px] flex items-center justify-between ">
         <div>
           <Link to="/">
             <img
@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <Link to="https://forms.gle/PjotJNonL1Sq7R5y8" target="_blank" >
-          <button className="md:px-[20px] lg:px-[40px] bg-[#040c3c] py-[16px] rounded-[40px] flex items-center gap-[10px]">
+          <button className="md:px-[20px] lg:px-[20px] min-w-[180px] bg-[#040c3c] py-[16px] rounded-[40px] flex items-center gap-[10px] md:hidden lg:flex">
             <p className="text-white">Request quote </p>
 
             <img src="/receipt.svg" className="" alt="receipt" />

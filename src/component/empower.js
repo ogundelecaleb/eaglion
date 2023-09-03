@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Empower = () => {
   return (
@@ -11,7 +12,11 @@ const Empower = () => {
             <span className="text-[#04234F]"> Innovative </span>Software, Mobile
             and Web Solutions.{" "}
           </h2>
-          <img src="/megaphone.png" alt=""  className="absolute bottom-[2%] left-[8%] hidden lg:flex "/>
+          <img
+            src="/megaphone.png"
+            alt=""
+            className="absolute bottom-[2%] left-[8%] hidden lg:flex "
+          />
         </div>
         <div className="flex justify-end mt-[60px]">
           <div className="flex gap-[10px] w-full md:w-[70%] lg:w-[50%] mt-[40px] ">
@@ -23,9 +28,11 @@ const Empower = () => {
                 to reach their full digital potential through innovative
                 software, mobile, and web solutions.
               </p>
-              <button className=" px-[30px] text-[14px] md:text-[16px]  md:px-[40px] bg-[#040c3c] py-[16px] rounded-[40px] mt-[20px] md:gap-[10px] text-white mx-auto">
-                More about us
-              </button>
+              <Link to="/about">
+                <button className=" px-[30px] text-[14px] md:text-[16px]  md:px-[40px] bg-[#040c3c] hover:bg-[#040c3cd8] py-[16px] rounded-[40px] mt-[20px] md:gap-[10px] text-white mx-auto">
+                  More about us
+                </button>
+              </Link>
             </div>
           </div>
         </div>

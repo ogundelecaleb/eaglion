@@ -3,6 +3,7 @@ import Navbar from "./component/navbar";
 import Newsletter from "./component/newsletter";
 import Footer from "./component/footer";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -11,8 +12,8 @@ const Projects = () => {
       <div className="px-[16px] md:px-[30px] lg:px-[80px]  lg:pt-[60px]">
         <div className="py-[32px] lg:py-[80px]  border-b border-dotted">
           <div className="w-full  flex mb-4 ">
-            <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
-              Our products{" "}
+            <button className="px-[20px] hover:bg-[#040c3c] hover:text-white    md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
+              Works we are proud of
             </button>
           </div>
           <div className="relative">
@@ -25,7 +26,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="md:px-[40px] lg:px-[90px] py-[32px] md:py-[64px] lg:py-[80px]">
+        <div className="md:px-[40px] lg:px-[90px] pt-[32px] md:pt-[64px] lg:pt-[80px]">
           <h2 className="text-[28px] md:text-[48px] lg:text-[72px] font-semibold mb-[16px] md:mb-[24px] ">
             Building Products, One Success Story at a Time.
           </h2>
@@ -57,15 +58,17 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="py-[32px] md:py-[48px] lg:py-[80px] md:mx-[40px] lg:mx-[90px] border-t border-b border-dotted grid grid-cols-1 md:grid-cols-2 gap-[24px] md:gap-[30px]">
+        <div className="py-[32px] md:py-[48px] lg:py-[80px] md:mx-[40px] lg:mx-[90px] border-t border-b border-dotted grid grid-cols-1 md:grid-cols-2 gap-[24px] md:gap-[36px]">
           <div className="">
-            <img src="/vant.png" alt="" />
+            <img src="/vant.png" alt="" className="w-full mb-4" />
             <div>
               <div className="flex justify-between items-center">
                 <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                   Vant
                 </h2>
-                <AiOutlineArrowRight className="" />
+                <Link to="https://vantapp.com/" target="_blank">
+                  <AiOutlineArrowRight className="" />
+                </Link>
               </div>
               <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
                 Vant App lets you create your own savings goals and track your
@@ -75,13 +78,15 @@ const Projects = () => {
             </div>
           </div>
           <div className="">
-            <img src="/buyasap.png" alt="" />
+            <img src="/buyasap.png" alt="" className="w-full mb-4" />
             <div>
               <div className="flex justify-between items-center">
                 <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                   BuyAsap
                 </h2>
-                <AiOutlineArrowRight className="" />
+                <Link to="https://play.google.com/store/apps/details?id-com.buyasap.app" target="_blank">
+                  <AiOutlineArrowRight className="" />
+                </Link>
               </div>
               <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
                 BuyAsap Africa is an online shopping site, which enables
@@ -92,13 +97,15 @@ const Projects = () => {
             </div>
           </div>
           <div className="">
-            <img src="/konix.png" alt="" />
+            <img src="/konix.png" alt="" className="w-full mb-4" />
             <div>
               <div className="flex justify-between items-center">
                 <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                   Konix
                 </h2>
-                <AiOutlineArrowRight className="" />
+                <Link to="https://konixapp.com/" target="_blank">
+                  <AiOutlineArrowRight className="" />
+                </Link>
               </div>
               <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
                 Konix helps you shop your favourite luxury brand in one place,
@@ -109,13 +116,15 @@ const Projects = () => {
             </div>
           </div>
           <div className="">
-            <img src="/bezi.png" alt="" />
+            <img src="/bezi.png" alt="" className="w-full mb-4" />
             <div>
               <div className="flex justify-between items-center">
                 <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                   Bezi
                 </h2>
-                <AiOutlineArrowRight className="" />
+                <Link to="https://www.bezi.build/#" target="_blank">
+                  <AiOutlineArrowRight className="" />
+                </Link>
               </div>
               <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
                 Bezi is on a mission to impact the Africa ecosystem, empowering
