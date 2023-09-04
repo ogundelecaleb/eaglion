@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Customer = () => {
   return (
@@ -13,29 +14,29 @@ const Customer = () => {
       </div>
 
       <div className="mt-[60px] md:mt-[90px] lg:mt-[40px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] rounded-2xl">
-        <div className="md:mx-[60px] px-4  lg:mx-[124px] ">
+        <div className="md:mx-[60px] px-4  lg:mx-[11px] ">
           <div className="flex justify-center font-semibold gap-2 md:gap-4 mb-[24px] lg:text-[20px]">
             {" "}
             <button className="md:bg-[#040C3C]  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
               <p className="md:text-white text-black text-[18px] lg:text-[20px]">
                 Vant App
               </p>
             </button>{" "}
             <button className="md:bg-[#040C3C]  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
               <p className="md:text-white text-black text-[18px] lg:text-[20px]">
                 Buy Asap
               </p>
             </button>
             <button className="md:bg-[#040C3C]  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
               <p className="md:text-white text-black text-[18px] lg:text-[20px]">
                 Konix
               </p>
             </button>
             <button className="md:bg-[#040C3C] font-semibold md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
               <p className="md:text-white text-black text-[18px] lg:text-[20px]">
                 Bezi
               </p>
@@ -45,42 +46,60 @@ const Customer = () => {
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
               {" "}
               <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">SolutionsUIUX</p>
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                SolutionsUIUX
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">GIZ</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                GIZ
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Samuel Otigba</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Samuel Otigba
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Essenza</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Essenza
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Verbal Bridges</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Verbal Bridges
+              </p>
             </button>{" "}
           </div>
           <div className="flex flex-wrap font-semibold md:flex-nowrap justify-center gap-4 pl-[7%]  md:pl-[7%] w-full">
             {" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">VendorAgro</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                VendorAgro
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Rumble n tumble</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Rumble n tumble
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Bedmate Furnitures</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Bedmate Furnitures
+              </p>
             </button>{" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
-            <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
-              <p className="md:text-white text-black text-[18px] lg:text-[20px]">Axtre Construction</p>
+              <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
+              <p className="md:text-white text-black text-[18px] lg:text-[20px]">
+                Axtre Construction
+              </p>
             </button>{" "}
           </div>
         </div>
@@ -102,10 +121,11 @@ const Customer = () => {
               with ease. Vant app lets you create your own goals and track your
               progrss every time you save money.
             </p>
-
-            <button className="px-3 py-2 bg-black text-white rounded-[24px]">
-              VIEW CASE STUDY
-            </button>
+            <Link to="/vant">
+              <button className="px-3 py-2 bg-black text-white rounded-[24px]">
+                VIEW CASE STUDY
+              </button>
+            </Link>
           </div>
           <div>
             {" "}
