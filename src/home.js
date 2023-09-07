@@ -10,25 +10,28 @@ import Newsletter from "./component/newsletter";
 import Partner from "./component/partners";
 import Service from "./component/service";
 import Testimonial from "./component/testimonial";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+
 
 const Home = () => {
   return (
     <div className="">
-    <Navbar />
-    <Herobanner />
-    <Partner />
-    <Service />
-    <Empower />
-    <Customer />
+      <Navbar />
+      <Herobanner />
+      <Partner />
+      <ScrollAnimation animateIn='bounceInRight' animateOut="fadeOut">
+        <Service />
+      </ScrollAnimation>
+      <Empower />
+      <Customer />
+      <Testimonial />
+      <Blog />
+      <Faq />
+      <Newsletter />
+      <Footer />
+    </div>
+  );
+};
 
-    <Testimonial />
-    
-    <Blog/>
-    <Faq />
-    <Newsletter />
-    <Footer />
-  </div>
-  )
-}
-
-export default Home
+export default Home;

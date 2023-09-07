@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Navbar from "./component/navbar";
 import WhyChooseFaq from "./component/whyChooseFaq";
 import { AiOutlineArrowDown} from "react-icons/ai";
@@ -6,13 +6,22 @@ import Newsletter from "./component/newsletter";
 import Footer from "./component/footer";
 
 const AboutUs = () => {
+  const bottomEl = useRef();
+  const scrollingBottom = (event) => {
+    const elmnt = bottomEl;
+    elmnt.current.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "start",
+    });
+  };
   return (
     <div>
       <Navbar />
       <div className="px-[16px] md:px-[30px] lg:px-[80px]  lg:pt-[60px]">
         <div className="py-[32px] lg:py-[80px]  border-b border-dotted">
           <div className="w-full  flex mb-4 ">
-            <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
+            <button className="px-[20px]  hover:bg-[#040c3c] hover:text-white   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
               Transforming ideas into reality
             </button>
           </div>
@@ -35,14 +44,14 @@ const AboutUs = () => {
             keep rasing the bar.
           </h2>
 
-          <div className="mt-[40px] mb-[32px] md:mb-[48px] md:mt-[56px] lg:mt-[86px] lg:mb-[56px] flex gap-2 items-center">
+          <div onClick={scrollingBottom} className="mt-[40px] mb-[32px] md:mb-[48px] md:mt-[56px] lg:mt-[86px] cursor-pointer lg:mb-[56px] flex gap-2 items-center">
             <p>Learn more about our company</p>{" "}
             <AiOutlineArrowDown className="animate-bounce transition delay-500 duration-300 ease " />
           </div>
         </div>
         <img src="./work-settings.png" alt="work station" loading="lazy" />
 
-        <section className="pb-[16px] md:pb-[36px] lg:pb-[60px]">
+        <section   ref={bottomEl} className="pb-[16px] md:pb-[36px] lg:pb-[60px]">
           <h2 className="text-[28px] md:text-[48px] lg:text-[80px] font-semibold mb-[16px] md:mb-[26px] lg:mb-[40px]">
             Our Mission
           </h2>

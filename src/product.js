@@ -10,7 +10,7 @@ const Products = () => {
       <div className="px-[16px] md:px-[30px] lg:px-[80px]  lg:pt-[60px]">
         <div className="py-[32px] lg:py-[80px]  border-b border-dotted">
           <div className="w-full  flex mb-4 ">
-            <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
+            <button className="px-[20px] hover:bg-[#040c3c] hover:text-white  md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border mx-auto">
               Our products{" "}
             </button>
           </div>

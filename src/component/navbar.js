@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:flex items-center gap-[32px] hidden">
-          <ul className=" text-[20px] text-[#000] font-semibold md:space-x-[12px] lg:space-x-[17px]  flex items-center">
+          <ul className=" text-[20px] text-[#000] font-semibold md:space-x-[9px] lg:space-x-[17px]  flex items-center">
             <Link to="/project">
               <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Project
@@ -38,6 +38,11 @@ const Navbar = () => {
                 Product
               </li>
             </Link>
+            {/* <Link to="/product">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
+                
+              </li>
+            </Link> */}
             <Link to="/service">
               <li className="hover:text-white rounded-lg rounded-lg hover:bg-[#040C3C] px-3 py-2">
                 Services

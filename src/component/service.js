@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Service = () => {
   return (
@@ -20,13 +22,12 @@ const Service = () => {
             latest trends, technology and skills to provide you with a market
             fit, usable product.
           </p>
-     
-            <img
-              src="/pen.png"
-              alt="pen"
-              className="mx-auto mt-[80px] md:mt-[180px]"
-            />
-    
+
+          <img
+            src="/pen.png"
+            alt="pen"
+            className="mx-auto mt-[80px] md:mt-[180px]"
+          />
         </div>
 
         <div className="text-center shadow-lg py-[30px] md:py-[40px] px-[14px] relative rounded-lg text-black border border-[#04234F]">
@@ -43,7 +44,6 @@ const Service = () => {
             alt="dumpster"
             className="mx-auto mt-[80px] md:mt-[190px]"
           />
-       
         </div>
         <div className="text-center py-[30px] md:py-[40px] px-[14px] shadow-lg  rounded-lg text-black border border-[#04234F]">
           <h2 className="mb-[20px] text-[24px] lg:text-[30px] font-bold">
@@ -64,9 +64,11 @@ const Service = () => {
         </div>
       </div>
       <div className="w-full  flex my-[30px]">
-        <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border hover:bg-[#040c3c] hover:text-white mx-auto">
-          View more services
-        </button>
+        <Link to="/service" className="mx-auto">
+          <button className="px-[20px]   md:px-[28px] py-[8px] md:py-[14px] rounded-[40px] border hover:bg-[#040c3c] hover:text-white mx-auto">
+            View more services
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -42,8 +42,8 @@ const Customer = () => {
               </p>
             </button>
           </div>
-          <div className="flex flex-wrap  font-semibold md:flex-nowrap justify-center gap-4  mb-2 md:pl-[7%] w-full">
-            <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
+          <div className="flex flex-wrap  font-semibold  justify-center gap-4  mb-2 md:pl-[3%] w-full">
+            <button className="md:bg-black  md:px-[24px] md:py-[6px] lg:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
               {" "}
               <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
               <p className="md:text-white text-black text-[18px] lg:text-[20px]">
@@ -75,7 +75,7 @@ const Customer = () => {
               </p>
             </button>{" "}
           </div>
-          <div className="flex flex-wrap font-semibold md:flex-nowrap justify-center gap-4 pl-[7%]  md:pl-[7%] w-full">
+          <div className="flex flex-wrap font-semibold justify-center gap-4 pl-[7%]  md:pl-[7%] w-full">
             {" "}
             <button className="md:bg-black  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
               <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}
@@ -139,9 +139,11 @@ const Customer = () => {
               children; gadgets, electronics, groceries, and a whole lot more
               from premium brands.
             </p>
+            <Link to="/buyasap">
             <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
+            </Link>
           </div>
           <div>
             {" "}
@@ -154,9 +156,11 @@ const Customer = () => {
               Shop Nike, adidas, H&M, YSL, Ralph Lauren and more on the Konix
               app, right on your phone in the comfort of your home.
             </p>
+            <Link to="/konix">
             <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
+            </Link>
           </div>
           <div>
             <h3 className="lg:text-[40px] md:text-[30px] text-[19px] font-bold">
@@ -169,9 +173,11 @@ const Customer = () => {
               development of Africa. Access is everything! imagine where this
               world is the reality of Africa.
             </p>
+            <Link to="/bezi">
             <button className="px-3 py-2 bg-black text-white rounded-[24px]">
               VIEW CASE STUDY
             </button>
+            </Link>
           </div>
         </div>
       </section>

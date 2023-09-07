@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="px-3 pb-3 md:px-4 lg:px-6 md:pb-4 ">
       <div className=" bg-[#040C3C] px-[24px] md:px-[40px] lg:px-[64px]  py-[24px] md:pt-[40px] lg:pt-[64px]  md:pb-[30px] lg:pb-[36px] rounded-lg">
-        <div className="text-white flex flex-col md:flex-row mb-[80px] md:mb-[100px] gap-[30px]">
+        <div className="text-white flex flex-col md:flex-row mb-[80px] md:mb-[100px] gap-[50px]">
           <div className="w-full md:w-[30%] lg:w-[40%]">
             <img
               src="/eaglionLogowhite.png"
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="w-full flex gap-4 md:gap-[10%] md:w-[60%] ">
             <div>
               <h3 className="pb-3 font-semibold">Company</h3>
-              <ul className="space-y-3 ">
+              <ul className=" ">
                 <Link to="/home">
                   <li className="cursor-pointer">Home </li>
                 </Link>
@@ -52,10 +52,21 @@ const Footer = () => {
             <div>
               <h3 className="pb-3 font-semibold">Resources</h3>
               <ul className="space-y-3">
-                <li>Projects</li>
-                <li>Request Qoute</li>
-                <li>Blog</li>
-                <li>FAQS</li>
+                <Link to="https://forms.gle/PjotJNonL1Sq7R5y8" target="_blank">
+                <li className="cursor-pointer">Request Qoute</li>{" "}
+                </Link>
+                <Link to="">
+                  {" "}
+                  <li className="cursor-pointer">Hire a Talent</li>{" "}
+                </Link>
+                <Link to="">
+                  {" "}
+                  <li className="cursor-pointer">Blog</li>
+                </Link>
+                <Link to="/#faq">
+                  {" "}
+                  <li className="cursor-pointer">FAQS</li>
+                </Link>
               </ul>
             </div>
           </div>
