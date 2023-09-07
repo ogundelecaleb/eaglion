@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {useRef} from "react";
 import Navbar from "./component/navbar";
 import WhyChooseFaq from "./component/whyChooseFaq";
 import { AiOutlineArrowDown} from "react-icons/ai";
