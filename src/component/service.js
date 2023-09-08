@@ -26,7 +26,7 @@ const Service = () => {
           <img
             src="/pen.png"
             alt="pen"
-            className="mx-auto mt-[80px] md:mt-[180px]"
+            className="mx-auto mt-[80px] md:mt-[170px]"
           />
         </div>
 
@@ -42,7 +42,7 @@ const Service = () => {
           <img
             src="/dumpster.png"
             alt="dumpster"
-            className="mx-auto mt-[80px] md:mt-[190px]"
+            className="mx-auto mt-[90px] md:mt-[190px]"
           />
         </div>
         <div className="text-center py-[30px] md:py-[40px] px-[14px] shadow-lg  rounded-lg text-black border border-[#04234F]">
@@ -59,7 +59,7 @@ const Service = () => {
           <img
             src="/uncharted.png"
             alt="uncharted"
-            className="mx-auto mt-[60px] md:mt-[100px]"
+            className="mx-auto mt-[80px] md:mt-[170px]"
           />
         </div>
       </div>

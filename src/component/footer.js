@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
   AiFillFacebook,
+  AiFillInstagram,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -53,7 +54,7 @@ const Footer = () => {
               <h3 className="pb-3 font-semibold">Resources</h3>
               <ul className="space-y-3">
                 <Link to="https://forms.gle/PjotJNonL1Sq7R5y8" target="_blank">
-                <li className="cursor-pointer">Request Qoute</li>{" "}
+                  <li className="cursor-pointer">Request Qoute</li>{" "}
                 </Link>
                 <Link to="">
                   {" "}
@@ -79,7 +80,12 @@ const Footer = () => {
           </p>
           <div className="flex space-x-3">
             <AiFillTwitterCircle />
-            <AiFillLinkedin />
+            <Link className="cursor-pointer" to="https://www.linkedin.com/company/eaglion-global-technologies/ " target="_blank">
+              <AiFillLinkedin />
+            </Link>{" "}
+            <Link className="cursor-pointer" to="https://instagram.com/eaglion_chub?igshid=ZGUzMzM3NWJiOQ== " target="_blank">
+              <AiFillInstagram />
+            </Link>
             <AiFillYoutube />
             <AiFillFacebook />
           </div>

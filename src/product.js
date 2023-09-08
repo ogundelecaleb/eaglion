@@ -58,8 +58,8 @@ const Products = () => {
 
         <div className="py-[32px] md:py-[48px] lg:py-[80px] md:mx-[40px] lg:mx-[90px] border-t border-b border-dotted">
           <div className="flex flex-col md:flex-row gap-6 mb-6 md:mb-10">
-            <img src="/hallow rectangle.png" alt="" />
-            <div>
+            <img src="/eaglionHost.jpg" alt="" className="w-full md:w-[50%]"/>
+            <div className="w-full md:w-[50%]">
               <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                 Eaglion Host
               </h2>
@@ -72,8 +72,8 @@ const Products = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-6 mb-6 md:mb-10">
-            <img src="/hallow rectangle.png" alt="" />
-            <div>
+            <img src="/eaglionsms.png" alt="" className="w-full md:w-[50%]" />
+            <div className="w-full md:w-[50%]">
               <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                 Eaglion SMS
               </h2>

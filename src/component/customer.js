@@ -15,7 +15,7 @@ const Customer = () => {
 
       <div className="mt-[60px] md:mt-[90px] lg:mt-[40px] py-[60px] md:py-[90px] lg:py-[130px] bg-[#FAFAFA] rounded-2xl">
         <div className="md:mx-[60px] px-4  lg:mx-[11px] ">
-          <div className="flex justify-center font-semibold gap-2 md:gap-4 mb-[24px] lg:text-[20px]">
+          <div className="flex justify-center flex-wrap font-semibold gap-2 md:gap-4 mb-[24px] lg:text-[20px]">
             {" "}
             <button className="md:bg-[#040C3C]  md:px-[24px] md:py-[16px] flex items-center gap-1 md:gap-2 rounded-[24px] md:border-4 border-white">
               <div className="h-2 w-2 bg-black md:bg-white rounded-full  md:inline-block"></div>{" "}

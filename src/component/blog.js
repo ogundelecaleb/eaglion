@@ -38,7 +38,7 @@ const Blog = () => {
     // Simulate a 5-second delay
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 6000);
 
     return () => {
       clearTimeout(loadingTimeout);
@@ -67,7 +67,7 @@ const Blog = () => {
   return (
     <div className="px-[18px] md:px-[40px] lg:px-[80px] py-[24px] md:py-[42px] lg:py-[72px]  bg-[#F6F6F9] my-9">
       <div className="w-full  flex ">
-        <button className="px-3 py-3 text-[#747474] border border-[#DADADA] text-[8px] md:text-[10px] lg:text-[12px] mb-[16px]  rounded-2xl max-w-[140px] mx-auto">
+        <button className="px-3 py-3 text-[#747474] border border-[#DADADA] text-[8px] md:text-[10px] lg:text-[12px] mb-[16px]  rounded-2xl max-w-[180px] mx-auto hover:-translate-y-2 transition ease-in-out duration-150">
           Our recent blog post
         </button>
       </div>
@@ -107,7 +107,7 @@ const Blog = () => {
                     {/* <h3>{blog.publishedAt}</h3> */}
                   </div>
                   <Link to={"/blog/" + blog.slug.current}>
-                    <button className="border border-[#B9B9B9]   rounded-lg px-3 py-2 mt-[26px] md:mt-[32px]">
+                    <button className="border border-[#B9B9B9]   rounded-lg px-3 py-2 mt-[26px] md:mt-[32px] hover:-translate-y-2 transition ease-in-out duration-150">
                       read more
                     </button>
                   </Link>
@@ -115,7 +115,7 @@ const Blog = () => {
               ))
             ) : (
               <div>
-                <p>Blog Loading</p>
+                <p>Blog Loading...</p>
               </div>
             )}
           </Carousel>

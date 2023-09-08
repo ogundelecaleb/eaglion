@@ -22,7 +22,7 @@ const Newsletter = () => {
         </div>
       </Link>
 
-      <div className="bgImage relative bg-no-repeat bg-cover w-full  md:py-[48px] py-[32px] rounded-lg">
+      <div className="bgImage relative bg-no-repeat bg-cover w-full px-2  md:py-[48px] py-[24px] rounded-lg">
         <h2 className="text-white text-center text-[20px] md:text-[28px] lg:text[36px]">
           Subscribe to our newsletter <br /> for blog and technology insights
           updates

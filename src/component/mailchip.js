@@ -29,7 +29,7 @@ const CustomForm = ({ status, message, onValidated }) => {
        <p className="text-center text-white">
         {" "}
         {status === "success"
-          ? "Success!"
+          ? "Thank you for subscribing!"
           : "Join our email list for future updates."}
       </p>
       <div className="py-3 px-3 bg-white rounded-lg flex items-center max-w-[323px] md:max-w-[623px] mx-auto  gap-2 ">
@@ -56,7 +56,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 };
 
 const Mailchip = () => {
-  const postUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const postUrl = `https://gmail.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
   return (
     <div className="mc__form-container">
