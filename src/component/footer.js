@@ -21,7 +21,7 @@ const Footer = () => {
             />{" "}
             <p>Creating tomorrow’s solutions today</p>
           </div>
-          <div className="w-full flex gap-4 md:gap-[10%] md:w-[60%] ">
+          <div className="w-full flex gap-9 md:gap-[10%] md:w-[60%] ">
             <div>
               <h3 className="pb-3 font-semibold">Company</h3>
               <ul className=" ">
