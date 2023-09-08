@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./component/navbar";
 import Newsletter from "./component/newsletter";
 import Footer from "./component/footer";
+import { Link } from "react-router-dom";
+import { WiDirectionUpRight } from "react-icons/wi";
 
 const Products = () => {
   return (
@@ -57,32 +59,45 @@ const Products = () => {
         </div>
 
         <div className="py-[32px] md:py-[48px] lg:py-[80px] md:mx-[40px] lg:mx-[90px] border-t border-b border-dotted">
-          <div className="flex flex-col md:flex-row gap-6 mb-6 md:mb-10">
-            <img src="/eaglionHost.jpg" alt="" className="w-full md:w-[50%]"/>
+          <div className="flex flex-col md:flex-row items-center gap-6 mb-6 md:mb-10">
+            <img src="/eaglionHost.jpg" alt="" className="w-full md:w-[50%]" />
             <div className="w-full md:w-[50%]">
               <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                 Eaglion Host
               </h2>
-              <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
+              <p className="font-normal text-[#2E2E2E] text-base md:text-lg mb-3 md:mb-8">
                 Ultrafast WordPressHosting Only $2. Don't wait any longer, join
                 satisfied website owners and discover its benefits. Start a new
                 site or upgrade your current setup with this outstanding
                 platform and succeed online.
               </p>
+              <Link to="https://eaglion.host/" target="_blank"   rel="noopener noreferrer">
+                <button className="px-2 py-2 border bg-slate-200 flex items rounded-lg hover:bg-slate-100">
+                  <p>checkout</p>
+                  <WiDirectionUpRight />
+                </button>
+              </Link>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row gap-6 mb-6 md:mb-10">
+          <div className="flex flex-col md:flex-row items-center gap-6 mb-6 md:mb-10">
             <img src="/eaglionsms.png" alt="" className="w-full md:w-[50%]" />
             <div className="w-full md:w-[50%]">
               <h2 className="text-lg md:text-2xl lg:text-[32px] font-semibold mb-4">
                 Eaglion SMS
               </h2>
-              <p className="font-normal text-[#2E2E2E] text-base md:text-lg">
+              <p className="font-normal text-[#2E2E2E] text-base md:text-lg mb-3 md:mb-8">
                 Ultrafast WordPressHosting Only $2. Don't wait any longer, join
                 satisfied website owners and discover its benefits. Start a new
                 site or upgrade your current setup with this outstanding
                 platform and succeed online.
               </p>
+
+              <Link to="">
+                <button className="px-2 py-2 border bg-slate-200 flex items-center rounded-lg hover:bg-slate-100">
+                  <p>checkout</p>
+                  <WiDirectionUpRight />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
