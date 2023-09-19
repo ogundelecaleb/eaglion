@@ -60,9 +60,9 @@ const Footer = () => {
                   {" "}
                   <li className="cursor-pointer">Hire a Talent</li>{" "}
                 </Link>
-                <Link to="">
+                <Link to="/allblog">
                   {" "}
-                  <li className="cursor-pointer">Blog</li>
+                  <li className="cursor-pointer">Blogs</li>
                 </Link>
                 <Link to="/#faq">
                   {" "}
@@ -80,10 +80,18 @@ const Footer = () => {
           </p>
           <div className="flex space-x-3">
             <AiFillTwitterCircle />
-            <Link className="cursor-pointer" to="https://www.linkedin.com/company/eaglion-global-technologies/ " target="_blank">
+            <Link
+              className="cursor-pointer"
+              to="https://www.linkedin.com/company/eaglion-global-technologies/ "
+              target="_blank"
+            >
               <AiFillLinkedin />
             </Link>{" "}
-            <Link className="cursor-pointer" to="https://instagram.com/eaglion_chub?igshid=ZGUzMzM3NWJiOQ== " target="_blank">
+            <Link
+              className="cursor-pointer"
+              to="https://instagram.com/eaglion_chub?igshid=ZGUzMzM3NWJiOQ== "
+              target="_blank"
+            >
               <AiFillInstagram />
             </Link>
             <AiFillYoutube />

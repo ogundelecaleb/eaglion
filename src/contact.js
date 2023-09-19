@@ -131,7 +131,7 @@ const Contact = () => {
             </svg>
 
             <h4 className="text-lg md:text-2xl textfont-semibold mb-2">Visit us</h4>
-            <p className="mb-2 font-normal text-[#2E2E2E] text-base md:text-lg text">NG: 20, Abioro street, Lekki, Lagos</p>
+            <p className="mb-2 font-normal text-[#2E2E2E] text-base md:text-lg text">NG: Olumakinde Street, Abiola way, Abeokuta </p>
             <p className="font-normal text-[#2E2E2E] text-base md:text-lg text">US: 1603 Capitol avenue, Suite 413A, Cheyenne,Wyoming</p>
           </div>
         </div>

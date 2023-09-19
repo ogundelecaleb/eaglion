@@ -11,6 +11,7 @@ import Buyasap from "./buyasap";
 import Vant from "./vant";
 import Bezi from "./bezi";
 import Konix from "./konix";
+import AllBlogs from "./allBlogs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/vant" element={<Vant />} />
           <Route path="/bezi" element={<Bezi />} />
           <Route path="/konix" element={<Konix />} />
+          <Route path="/allblog" element={<AllBlogs />} />
         </Routes>
       </Router>
     </div>

@@ -15,13 +15,13 @@ const Navbar = () => {
 
   return (
     <div className="relative">
-      <div className="px-[16px] md:px-[30px] lg:px-[80px] py-[24px] flex items-center justify-between ">
+      <div className=" px-[16px] md:px-[30px] lg:px-[80px] py-[24px] flex items-center justify-between ">
         <div>
           <Link to="/">
             <img
               src="/eaglionlogo.png"
               alt="eaglion logo"
-              className="object-contain h-[30px] md:h-[35px] lg:h-[39px]"
+              className="object-fit h-[30px] md:h-[35px] lg:h-[39px] "
             />
           </Link>
         </div>
@@ -29,32 +29,32 @@ const Navbar = () => {
         <div className="md:flex items-center gap-[32px] hidden">
           <ul className=" text-[20px] text-[#000] font-semibold md:space-x-[9px] lg:space-x-[17px]  flex items-center">
             <Link to="/project">
-              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-2 py-2">
                 Project
               </li>
             </Link>
             <Link to="/product">
-              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-2 py-2">
                 Product
               </li>
             </Link>
-            {/* <Link to="/product">
-              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
-                
+            <Link to="/allblog">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-2 py-2">
+                Blogs
               </li>
-            </Link> */}
+            </Link>
             <Link to="/service">
-              <li className="hover:text-white rounded-lg rounded-lg hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg  hover:bg-[#040C3C] px-3 py-2">
                 Services
               </li>
             </Link>
             <Link to="/contact">
-              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-2 py-2">
                 Contact
               </li>
             </Link>
             <Link to="/about">
-              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-3 py-2">
+              <li className="hover:text-white rounded-lg hover:bg-[#040C3C] px-2 py-2">
                 About Us
               </li>
             </Link>
@@ -110,6 +110,11 @@ const Navbar = () => {
               <Link to="/product">
                 <li className="cursor-pointer   hover:text-[#1b599b] hover:border-b hover:border-b-lg hover:border-b-[#124072]">
                   Products
+                </li>
+              </Link>
+              <Link to="/allblog">
+                <li className="cursor-pointer   hover:text-[#1b599b] hover:border-b hover:border-b-lg hover:border-b-[#124072]">
+                  Blogs
                 </li>
               </Link>
               <Link to="/project">
